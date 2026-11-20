@@ -12,7 +12,7 @@
 [![Downloads](https://img.shields.io/github/downloads/mika5app/mika5-releases/total)](https://github.com/mika5app/mika5-releases/releases)
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 
-**[Download v0.3.1](https://github.com/mika5app/mika5-releases/releases/tag/v0.3.1)** · [Website](https://mika5.xyz/) · [Model guide](https://mika5.xyz/models.html) · [White paper](https://mika5.xyz/whitepaper.html)
+**[Download v0.3.1](https://github.com/mika5app/mika5-releases/releases/tag/v0.3.1)** · [Source code](https://github.com/mika5app/mika5) · [Website](https://mika5.xyz/) · [Model guide](https://mika5.xyz/models.html) · [White paper](https://mika5.xyz/whitepaper.html)
 
 ## Download
 
@@ -43,7 +43,7 @@ Not sure which model fits your hardware? See the [model guide](https://mika5.xyz
 
 ## First launch: getting past the Windows and macOS warnings
 
-MIKA5 is not code-signed yet, so the system asks you to confirm the first time. It takes three steps, and only once.
+MIKA5 is not code-signed yet, so the system asks you to confirm the first time. It takes three steps, and only once. See the [Code signing policy](https://github.com/mika5app/mika5/blob/main/CODE_SIGNING_POLICY.md).
 
 **Windows — “Windows protected your PC”**
 
@@ -81,10 +81,18 @@ sha256sum MIKA5-0.3.1-linux-x86_64.AppImage
 
 ## Source code
 
-MIKA5 Community is free software under [AGPL-3.0](LICENSE). The source that corresponds to each release is published with it:
+MIKA5 Community is free software under [AGPL-3.0](LICENSE), developed in public at **[github.com/mika5app/mika5](https://github.com/mika5app/mika5)**. Pull requests are welcome there; see [CONTRIBUTING.md](https://github.com/mika5app/mika5/blob/main/CONTRIBUTING.md).
+
+Each release also carries the exact source it was built from:
 
 - [Source archive for v0.3.1](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/MIKA5-0.3.1-source.tar.gz) · [Build instructions](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/BUILDING.md) · [Build metadata](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/BUILD-METADATA.json)
 - [Community information](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/COMMUNITY.md)
+
+## Policies
+
+- [Code signing policy](https://github.com/mika5app/mika5/blob/main/CODE_SIGNING_POLICY.md) — builds are not code-signed yet; this says what will be signed, by whom, and how each release is approved.
+- [Privacy policy](https://github.com/mika5app/mika5/blob/main/PRIVACY.md) — MIKA5 sends nothing anywhere unless you ask it to.
+- [Security policy](https://github.com/mika5app/mika5/blob/main/SECURITY.md) — how to report a vulnerability.
 
 Updates are manual: close MIKA5 and keep a backup of your application data before installing a new version. Optional cloud provider usage may have separate charges from that provider.
 
@@ -94,13 +102,13 @@ Updates are manual: close MIKA5 and keep a backup of your application data befor
 
 **MIKA5 es una aplicación de escritorio de IA que funciona en tu propio equipo, gratis.** Proyectos, conversaciones y una base de conocimiento hecha con tus documentos, todo guardado en local. Sin cuenta, sin suscripción y sin telemetría. Los proveedores en la nube son opcionales y nunca se usan sin tu consentimiento explícito.
 
-**[Descargar v0.3.1](https://github.com/mika5app/mika5-releases/releases/tag/v0.3.1)** · [Sitio web](https://mika5.xyz/es/) · [Guía de modelos](https://mika5.xyz/es/models.html) · [White paper](https://mika5.xyz/es/whitepaper.html)
+**[Descargar v0.3.1](https://github.com/mika5app/mika5-releases/releases/tag/v0.3.1)** · [Código fuente](https://github.com/mika5app/mika5) · [Sitio web](https://mika5.xyz/es/) · [Guía de modelos](https://mika5.xyz/es/models.html) · [White paper](https://mika5.xyz/es/whitepaper.html)
 
 Los enlaces de descarga por sistema están en la [tabla de arriba](#download). MIKA5 usa [Ollama](https://ollama.com) para ejecutar los modelos locales: instálalo primero y descarga `llama3.2` y `nomic-embed-text`.
 
 ### Primer arranque: cómo pasar los avisos de Windows y macOS
 
-MIKA5 todavía no tiene firma de código, así que el sistema te pide confirmar la primera vez. Son tres pasos, una sola vez.
+MIKA5 todavía no tiene firma de código, así que el sistema te pide confirmar la primera vez. Son tres pasos, una sola vez. Consulta la [política de firma de código (Code signing policy)](https://github.com/mika5app/mika5/blob/main/CODE_SIGNING_POLICY.md) y la [política de privacidad](https://github.com/mika5app/mika5/blob/main/PRIVACY.md).
 
 **Windows — «Windows protegió su PC»**
 
