@@ -86,6 +86,7 @@ MIKA5 Community is free software under [AGPL-3.0](LICENSE), developed in public 
 Each release also carries the exact source it was built from:
 
 - [Source archive for v0.3.1](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/MIKA5-0.3.1-source.tar.gz) · [Build instructions](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/BUILDING.md) · [Build metadata](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/BUILD-METADATA.json)
+- [Community information](https://github.com/mika5app/mika5-releases/releases/download/v0.3.1/COMMUNITY.md)
 
 ## Policies
 
